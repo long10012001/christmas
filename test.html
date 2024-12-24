@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Giáng Sinh Vui Vẻ</title>
+    <link rel="stylesheet" href="styless.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="circle"></div>
+      <div class="card" id="card">
+        <div class="card-inner" id="card-inner">
+          <div class="card-front">
+            <h2>Chúc Mừng Giáng Sinh</h2>
+            <p>Nhấp vào đây để mở</p>
+          </div>
+          <div class="card-back">
+            <div class="card-background"></div>
+
+            <div class="cart-content">
+              <h2>Chúc Em Bé Giáng Sinh Dui Dẻ</h2>
+              <p>
+                Chúc cô bé đáng yêu có một đêm Noel thật là dui dẻ. Hãy luôn
+                tươi cười, hãy luôn hạnh phúc với những gì mà bé đang có nha và
+                phải thật mạnh mẽ, suy nghĩ tích cực lên nhớ nhe <3.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="snow">
+        <span style="--i: 11"></span>
+        <span style="--i: 12"></span>
+        <span style="--i: 24"></span>
+        <span style="--i: 10"></span>
+        <span style="--i: 14"></span>
+        <span style="--i: 23"></span>
+        <span style="--i: 18"></span>
+        <span style="--i: 16"></span>
+        <span style="--i: 19"></span>
+        <span style="--i: 20"></span>
+        <span style="--i: 22"></span>
+        <span style="--i: 25"></span>
+        <span style="--i: 18"></span>
+        <span style="--i: 21"></span>
+        <span style="--i: 13"></span>
+        <span style="--i: 15"></span>
+        <span style="--i: 26"></span>
+        <span style="--i: 17"></span>
+        <span style="--i: 13"></span>
+        <span style="--i: 28"></span>
+        <span style="--i: 11"></span>
+        <span style="--i: 12"></span>
+        <span style="--i: 24"></span>
+        <span style="--i: 10"></span>
+        <span style="--i: 14"></span>
+        <span style="--i: 23"></span>
+        <span style="--i: 18"></span>
+        <span style="--i: 16"></span>
+        <span style="--i: 19"></span>
+        <span style="--i: 20"></span>
+        <span style="--i: 22"></span>
+        <span style="--i: 25"></span>
+        <span style="--i: 18"></span>
+        <span style="--i: 21"></span>
+        <span style="--i: 13"></span>
+        <span style="--i: 15"></span>
+        <span style="--i: 26"></span>
+        <span style="--i: 17"></span>
+        <span style="--i: 13"></span>
+        <span style="--i: 28"></span>
+      </div>
+    </div>
+    <script>
+      // script.js
+      document.addEventListener("DOMContentLoaded", function () {
+        const card = document.getElementById("card");
+        const cardInner = document.getElementById("card-inner");
+
+        card.addEventListener("click", function () {
+          cardInner.classList.toggle("open");
+        });
+      });
+    </script>
+  </body>
+</html>
